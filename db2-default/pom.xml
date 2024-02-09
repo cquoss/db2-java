@@ -9,11 +9,15 @@
         <version>1.0</version>
     </parent>
     <artifactId>db2-default</artifactId>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+    </properties>
     <dependencies>
         <dependency>
-            <groupId>com.ibm.db2.jcc</groupId>
-            <artifactId>db2-jcc4</artifactId>
-            <version></version>
+            <groupId>com.ibm.db2</groupId>
+            <artifactId>jcc</artifactId>
+            <version>11.5.9.0</version>
         </dependency>
     </dependencies>
 </project>
