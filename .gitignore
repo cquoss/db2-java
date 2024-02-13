@@ -1,1 +1,5 @@
-/db2-default/target/
+# Apache Maven
+target/
+
+# JetBrains IntelliJ IdeaIU
+.idea/
